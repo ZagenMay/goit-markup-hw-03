@@ -84,7 +84,7 @@ ol {
 .menu-item:not(:last-child) {
   margin-right: 50px;
 }
-.mail-link {
+.header-contacts-items:not(:last-child) {
   margin-right: 50px;
 }
 .header-logo {
@@ -136,6 +136,8 @@ ol {
 .hero {
   background-color: var(--second-background-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   margin: 0 auto;
@@ -199,6 +201,9 @@ ol {
   letter-spacing: 0.03em;
   color: var(--descriprion-font-color);
 }
+.features-items:not(:last-child) {
+  margin-right: 30px;
+}
 /* ================END FEATURES========== */
 
 /* =================ACTIVITY============== */
@@ -243,7 +248,6 @@ ol {
   letter-spacing: 0.03em;
 }
 .team-description {
-  margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -257,8 +261,9 @@ ol {
   margin-left: -30px;
   margin-top: -30px;
 }
-.team-imgs {
-  margin-bottom: 30px;
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-items {
@@ -275,11 +280,11 @@ ol {
 /* =====================FOOTER======================= */
 .footer {
   background-color: var(--second-background-color);
-  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   display: inline-block;
-  margin-top: 60px;
   margin-bottom: 20px;
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -350,8 +355,6 @@ ol {
   border-radius: 4px;
 }
 .projects-subtitle {
-  margin-left: 24px;
-  margin-top: 20px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -359,8 +362,6 @@ ol {
   letter-spacing: 0.06em;
 }
 .projects-description {
-  margin-left: 24px;
-  margin-bottom: 20px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
@@ -391,6 +392,13 @@ ol {
   margin-top: 30px;
   width: 370px;
   background: #ffffff;
+}
+.box-projects {
   border: 1px solid #eeeeee;
+  border-top: none;
+  padding: 20px 24px;
+}
+.projects-img {
+  display: block;
 }
 /* ===================END PORTFOLIO============= */
